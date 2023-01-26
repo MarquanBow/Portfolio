@@ -23,7 +23,7 @@ const Main = () => {
                 2000, // Waits 2s
                 "Tech Enthusiast",
                 2000,
-                "Poet",
+                "Student",
                 2000,
               ]}
               wrapper="div"
