@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -31,6 +32,18 @@ const Contact = () => {
             Submit Message
           </button>
       </form>
+      <div className="flex justify-between pt-6 max-w-[200px] w-full">
+            <a href="https://twitter.com/QuanCodes">
+              <FaTwitter className='cursor-pointer' size={20} />
+            </a>
+            <a href="https://instagram.com/quansinnerthoughts?igshid=MWI4MTIyMDE=">
+              <FaInstagram  className='cursor-pointer' size={20}/>
+            </a>
+            <a href="https://www.linkedin.com/in/marquan-b-31ba74117/">
+              <FaLinkedinIn className='cursor-pointer' size={20} />
+            </a>
+          
+          </div>
     </div>
   )
 }

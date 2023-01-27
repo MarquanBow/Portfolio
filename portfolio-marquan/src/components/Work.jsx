@@ -4,9 +4,9 @@ import WorkItem from './WorkItem'
 const data = [
   {
     year:'2021',
-    title:'Consultant',
+    title:'Consultant at CapTech Ventures',
     duration:'Current',
-    details:'fhjsfkdn'
+    details:'Using various technical and soft skills I assist businesses in solving their technical problems. I have worked to revamp the seekidsdream website. I also worked with a financial institution to add a new feature to their website. Currently I am working with two non profit organizations, VA Pride and Diversity Richmond, to revamp their website as they merge into one organization.'
   }
 ]
 const Work = () => {
