@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { AiOutlineHome, AiOutlineMenu, AiOutlineProject,AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineHome, AiOutlineMenu, AiOutlineProject,AiOutlineMail, AiOutlineBook } from 'react-icons/ai'
 import {BsPerson} from 'react-icons/bs'
 import {GrProjects } from 'react-icons/gr';
 
@@ -23,6 +23,13 @@ const Sidenav = () => {
             > 
               <AiOutlineHome size={20} />
               <span className='pl-4'>Home</span>
+            </a>
+            <a onClick={handleNav} 
+              href="#education" 
+              className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            > 
+              <AiOutlineBook size={20} />
+              <span className='pl-4'>Education</span>
             </a>
             <a onClick={handleNav} 
               href="#work" 
@@ -63,6 +70,9 @@ const Sidenav = () => {
             <div className='flex flex-col'>
                 <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineHome sixe={20} />
+                </a>
+                <a href="#education" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <AiOutlineBook sixe={20} />
                 </a>
                 <a href="#work" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <GrProjects sixe={20} />
